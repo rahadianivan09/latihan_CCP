@@ -13,8 +13,8 @@ import streamlit as st
 import openai
 import os
 
-st.set_page_config(page_title="AWS CCP Chatbot", page_icon="🤖")
-st.title("AWS CCP Generative AI Chatbot")
+st.set_page_config(page_title="Chatbot Awams", page_icon="🤖")
+st.title("Chatbot Awams")
 
 # Ambil OpenAI key dari Streamlit Secrets / environment variable
 openai_api_key = os.getenv("OPENAI_API_KEY")
